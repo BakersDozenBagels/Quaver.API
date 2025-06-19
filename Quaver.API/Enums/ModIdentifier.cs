@@ -61,6 +61,7 @@ namespace Quaver.API.Enums
         Speed185X = 1L << 41, // Speed 1.85x
         Speed195X = 1L << 42, // Speed 1.95x
         HeatlthAdjust = 1L << 43, // Test mod for making long note windows easier
-        NoMiss = 1L << 44 // You miss, you die
+        NoMiss = 1L << 44, // You miss, you die
+        LenientLN = 1L << 45 // LN ends no longer have a release window
     }
 }

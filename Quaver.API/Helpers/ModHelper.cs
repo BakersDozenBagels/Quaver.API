@@ -167,6 +167,9 @@ namespace Quaver.API.Helpers
                     case ModIdentifier.NoMiss:
                         modStrings.Add("NM");
                         break;
+                    case ModIdentifier.LenientLN:
+                        modStrings.Add("LLN");
+                        break;
                     default:
                         throw new ArgumentOutOfRangeException($"Short string for ModIdentifier: {mod} does not exist.");
                 }
